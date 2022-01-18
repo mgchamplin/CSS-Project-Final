@@ -1,0 +1,329 @@
+.body {
+  background-color: grey;
+}
+
+.container-fluid {
+  padding: 0em 5em 0em 5em;
+}
+
+.flex-right-and-hold {
+  position: fixed;
+  bottom: 25%;
+  margin-left: 75%;
+}
+
+.help-buttons-row1 {
+  position: fixed;
+  justify-content: right;
+  bottom: 20%;
+  margin-left: 78%;
+}
+.help-buttons-row2 {
+  position: fixed;
+  justify-content: right;
+  bottom: 15%;
+  margin-left: 74%;
+}
+.help-buttons-row3 {
+  position: fixed;
+  justify-content: right;
+  bottom: 10%;
+  margin-left: 85%;
+}
+
+#help-buttons {
+  background-color: rgba(229, 242, 245, 0.966);
+  color: teal;
+  font-size: 0.9em;
+  font-weight: 300;
+  border: none;
+}
+
+#gustoLogo {
+  color: rgb(235, 68, 17);
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+#nav-hold {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#go-teal {
+  color: teal;
+}
+
+.baseNavBarText {
+  font-size: 1em;
+}
+
+#beige-button {
+  background-color: rgba(219, 212, 195, 0.699);
+  color: black;
+  font-size: 0.9em;
+  font-weight: 600;
+  border: none;
+}
+
+#red-button {
+  background-color: rgb(196, 87, 67);
+  color: white;
+  font-size: 0.9em;
+  font-weight: 600;
+  border: none;
+  margin-top: -60%;
+  margin-left: 10%;
+}
+
+#header-pic {
+  margin-top: 6em;
+}
+
+.people-success {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.people-text {
+  color: rgb(224, 76, 17);
+  font-weight: bold;
+}
+
+.manage-text {
+  font-size: 2.5em;
+  font-family: Geneva;
+  color: black;
+  width: 30%;
+  line-height: 1;
+}
+
+.team-text {
+  text-align: center;
+  width: 50%;
+}
+
+a.a-success {
+  color: rgb(30, 148, 163);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.icon-navbar {
+  width: 75%;
+  margin-top: 3em;
+}
+
+#icon-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon-text {
+  text-decoration: none;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em;
+  color: black;
+}
+
+#icon-text:hover {
+  color: teal;
+  text-decoration: underline;
+}
+
+#footer-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#orange-button {
+  background-color: rgb(190, 56, 15);
+}
+
+/* These are just headings for the link table */
+.a1,
+.a2,
+.a3,
+.a4,
+.c1,
+.d1,
+.e2 {
+  font-weight: 700;
+}
+
+/* Entries which are links */
+a.b1,
+a.b2,
+a.b3,
+a.b4,
+a.c1,
+a.c2,
+a.c3,
+a.c4,
+a.d3,
+a.d4,
+a.e1,
+a.e3,
+a.e4,
+a.f1,
+a.f2,
+a.f3,
+a.f4,
+a.g1,
+a.g2,
+a.g3,
+a.g4,
+a.h11,
+a.h12,
+a.h13,
+a.h14,
+a.i1,
+a.i2,
+a.i3,
+a.i4 {
+  text-decoration: none;
+  color: black;
+}
+
+/* Entries mapping to a table location for all the links */
+.a1 {
+  grid-area: a1;
+}
+.a2 {
+  grid-area: a2;
+}
+.a3 {
+  grid-area: a3;
+}
+.a4 {
+  grid-area: a4;
+}
+.d1 {
+  grid-area: d1;
+}
+.e2 {
+  grid-area: e2;
+}
+a.b1 {
+  grid-area: b1;
+}
+a.b2 {
+  grid-area: b2;
+}
+a.b3 {
+  grid-area: b3;
+}
+a.b4 {
+  grid-area: b4;
+}
+a.c1 {
+  grid-area: c1;
+}
+a.c2 {
+  grid-area: c2;
+}
+a.c3 {
+  grid-area: c3;
+}
+a.c4 {
+  grid-area: c4;
+}
+
+a.e1 {
+  grid-area: e1;
+}
+a.e3 {
+  grid-area: e3;
+}
+a.e4 {
+  grid-area: e4;
+}
+a.f1 {
+  grid-area: f1;
+}
+a.f2 {
+  grid-area: f2;
+}
+a.f3 {
+  grid-area: f3;
+}
+a.f4 {
+  grid-area: f4;
+}
+a.g1 {
+  grid-area: g1;
+}
+a.g2 {
+  grid-area: g2;
+}
+a.g3 {
+  grid-area: g3;
+}
+a.g4 {
+  grid-area: g4;
+}
+a.h11 {
+  grid-area: h11;
+}
+a.h12 {
+  grid-area: h12;
+}
+a.h13 {
+  grid-area: h13;
+}
+a.h14 {
+  grid-area: h14;
+}
+a.i1 {
+  grid-area: i1;
+}
+a.i2 {
+  grid-area: i2;
+}
+a.i3 {
+  grid-area: i3;
+}
+a.i4 {
+  grid-area: i4;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "a1 a2 a3 a4"
+    "b1 b2 b3 b4"
+    "c1 c2 c3 c4"
+    "d1 d2 d3 d4"
+    "e1 e2 e3 e4"
+    "f1 f2 f3 f4"
+    "g1 g2 g3 g4"
+    "h11 h12 h13 h14"
+    "i1 i2 i3 i4";
+  grid-gap: 10px;
+  height: 100%;
+  margin-top: 5em;
+}
+
+.container > div {
+  text-align: left;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+a.xxxx {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
